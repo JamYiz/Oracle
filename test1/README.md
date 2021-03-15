@@ -79,7 +79,6 @@ GROUP BY d.department_name;
    GRANT SELECT ON v_$sesstat TO hr;
    GRANT SELECT ON v_$statname TO hr;
    GRANT SELECT ON v_$session TO hr;
-   
    ```
 
    
@@ -88,7 +87,7 @@ GROUP BY d.department_name;
 
    ![image-20210315104416254](https://raw.githubusercontent.com/JamYiz/photos/master/20210315114216.png)
 
-   优化指导有：
+   由于语句一是全表查询，根据优化指导有：
 
    ![image-20210315104401447](https://raw.githubusercontent.com/JamYiz/photos/master/20210315114218.png)
 
@@ -100,7 +99,7 @@ GROUP BY d.department_name;
 
    
 
-   此处仅贴出查询2分析：
+   此处仅贴出查询2：
 
    ![image-20210315094927197](https://raw.githubusercontent.com/JamYiz/photos/master/20210315114225.png)
 
