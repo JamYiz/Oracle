@@ -28,13 +28,13 @@ GROUP BY d.department_name;
 
 运行结果如下：
 
-![image-20210315091619324](C:\Users\Mordred\AppData\Roaming\Typora\typora-user-images\image-20210315091619324.png)
+![image-20210315091619324](https://raw.githubusercontent.com/JamYiz/photos/master/20210315114153.png)
 
 语句统计信息如下：
 
-![image-20210315094116026](C:\Users\Mordred\AppData\Roaming\Typora\typora-user-images\image-20210315094116026.png)
+![image-20210315094116026](https://raw.githubusercontent.com/JamYiz/photos/master/20210315114200.png)
 
-![image-20210315094446276](C:\Users\Mordred\AppData\Roaming\Typora\typora-user-images\image-20210315094446276.png)
+![image-20210315094446276](https://raw.githubusercontent.com/JamYiz/photos/master/20210315114212.png)
 
 ### 教材样例分析
 
@@ -86,23 +86,23 @@ GROUP BY d.department_name;
 
    查询语句1分析：
 
-   ![image-20210315104416254](C:\Users\Mordred\AppData\Roaming\Typora\typora-user-images\image-20210315104416254.png)
+   ![image-20210315104416254](https://raw.githubusercontent.com/JamYiz/photos/master/20210315114216.png)
 
    优化指导有：
 
-   ![image-20210315104401447](C:\Users\Mordred\AppData\Roaming\Typora\typora-user-images\image-20210315104401447.png)
+   ![image-20210315104401447](https://raw.githubusercontent.com/JamYiz/photos/master/20210315114218.png)
 
    
 
    对查询1进行优化，添加索引如下：
 
-   ​	![image-20210315104812825](C:\Users\Mordred\AppData\Roaming\Typora\typora-user-images\image-20210315104812825.png)
+   ​	![image-20210315104812825](https://raw.githubusercontent.com/JamYiz/photos/master/20210315114221.png)
 
    
 
    此处仅贴出查询2分析：
 
-   ![image-20210315094927197](C:\Users\Mordred\AppData\Roaming\Typora\typora-user-images\image-20210315094927197.png)
+   ![image-20210315094927197](https://raw.githubusercontent.com/JamYiz/photos/master/20210315114225.png)
 
    ### 查询语句设计
 
@@ -117,7 +117,7 @@ GROUP BY d.department_name;
    GROUP BY department_name,e.EMPLOYEE_id,e.job_id;
    ```
 
-   ![image-20210315110201060](C:\Users\Mordred\AppData\Roaming\Typora\typora-user-images\image-20210315110201060.png)
+   ![image-20210315110201060](https://raw.githubusercontent.com/JamYiz/photos/master/20210315114230.png)
 
    
 
