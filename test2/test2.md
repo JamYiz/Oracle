@@ -30,6 +30,10 @@ GRANT ZY TO ZY1;
 ![image-20210316111825200](https://raw.githubusercontent.com/JamYiz/photos/master/20210316111825.png)
 
 2. 第2步：新用户ZY1连接到pdborcl，创建表mytable和视图myview，插入数据，最后将myview的SELECT对象权限授予hr用户。
+
+   连接到pdborcl：
+
+   ![image-20210316122132859](https://raw.githubusercontent.com/JamYiz/photos/master/20210316122132.png)
 ```sql
 SHOW USER
 CREATE TABLE mytable (id number,name varchar(50));
