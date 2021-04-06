@@ -60,9 +60,7 @@ SQL>@test3.sql
 SQL>exit
 ```
  ##### 运行结果
-![avatar](3.png)
 ![image-20210406224057633](https://raw.githubusercontent.com/JamYiz/photos/master/20210406224057.png)
-
 ```text
 该脚本在你的账号下创建了两个分区表，orders（一万行数据），order_details（三万行数据）。
 ```
