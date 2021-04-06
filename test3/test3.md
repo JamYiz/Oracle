@@ -74,7 +74,7 @@ select * from ZY1.orders where order_date
 between to_date('2017-1-1','yyyy-mm-dd') and to_date('2018-6-1','yyyy-mm-dd');
 ```
 ##### 运行结果
-![image-20210406224223049](C:\Users\Mordred\AppData\Roaming\Typora\typora-user-images\image-20210406224223049.png)
+![image-20210406224223049](https://raw.githubusercontent.com/JamYiz/photos/master/20210406225327.png)
 
 ```sql
 select a.ORDER_ID,a.CUSTOMER_NAME,
